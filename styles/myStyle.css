@@ -1,0 +1,215 @@
+body {
+    direction: rtl;
+    background-image: url('../images/pexels-photo-807598.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    position: fixed;
+}
+
+#container {
+    background-color: #0e0a0ae0;
+    margin-top: 100px;
+    width: 960px;
+    height: 600px;
+    -webkit-box-shadow: 0 0 50px 30px #0e0a0ae0;
+    box-shadow: 0 0 50px 30px #0e0a0ae0;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#home {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+#profile {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #e5e5e5;
+    border-radius: 85px;
+}
+
+#span1 {
+    position: fixed;
+    margin-top: 190px;
+    margin-right: -226px;
+}
+
+.bio {
+    margin-top: 170px;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 250px;
+}
+
+    .bio p {
+        font-family: calibri;
+        color: #e5e5e5;
+        font-size: 18pt;
+    }
+
+h1 {
+    font-size: 25pt;
+    text-align: center;
+    color: #e5e5e5;
+    padding: 30px;
+    font-family: calibri;
+}
+
+    h1 a:hover {
+        text-shadow: 0 0 50px #ffffff;
+    }
+
+nav ul {
+    list-style: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+    nav ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        nav ul li a {
+            font-family: calibri;
+            font-size: 20pt;
+            display: block;
+            background-color: #2f2f33;
+            color: #e5e5e5;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding: 5px;
+            margin: 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border-radius: 10px 10px 10px 10px;
+            -webkit-transition: background 50ms ease;
+            -moz-transition: background 300ms ease;
+            -ms-transition: background 300ms ease;
+            -o-transition: background 300ms ease;
+            transition: background 300ms ease;
+        }
+
+            nav ul li a:hover {
+                background-color: gray;
+            }
+
+            nav ul li a:active {
+                background-color: green;
+            }
+
+nav1 ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav1 ul li:hover ul {
+    display: block;
+    width: 120px;
+}
+
+#hit {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.thisone {
+    background-color: #9c0a0a;
+}
+
+    .thisone:hover {
+        background-color: #9c0a0a;
+    }
+
+#span2 {
+    position: fixed;
+    margin-top: 370px;
+    margin-right: -86px;
+}
+
+.connect {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#facebook {
+    display: inline-block;
+    float: right;
+}
+
+    #facebook:hover {
+        width: 128px;
+        height: 128px;
+    }
+
+
+#gmail {
+    display: inline-block;
+    float: right;
+}
+
+    #gmail:hover {
+        width: 128px;
+        height: 128px;
+    }
+
+#instagram {
+    display: inline-block;
+    float: right;
+}
+
+    #instagram:hover {
+        width: 128px;
+        height: 128px;
+    }
+
+footer {
+    position: fixed;
+}
+
+#backhome {
+    text-align: center;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+    #backhome a {
+        color: #e5e5e5;
+        text-decoration: none;
+        font-family: calibri;
+        font-size: 12pt;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+        Padding: 5px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border-radius: 10px 10px 10px 10px;
+        -webkit-transition: background 1s ease;
+        -moz-transition: background 1s ease;
+        -ms-transition: background 1s ease;
+        -o-transition: background 1s ease;
+        transition: background 1s ease;
+    }
+
+div div a:hover {
+    background-color: rgba(255, 255, 255, 0.53);
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    width: 960px;
+}
